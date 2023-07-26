@@ -10,6 +10,7 @@ export default function Home() {
   const [foodCat, setFoodCat] = useState([]);
   const [foodItems, setFoodItems] = useState([]);
   const [search, setSearch] = useState("");
+  
   const loadFoodItems = async () => {
     let response = await fetch(
       "https://foodapp-xbpo.onrender.com/api/foodData",

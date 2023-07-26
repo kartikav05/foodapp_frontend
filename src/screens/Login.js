@@ -33,7 +33,7 @@ export default function Login() {
     } else {
       alert("Enter Valid Credentials");
     }
-    
+
   };
 
   const onChange = (e) => {
@@ -86,7 +86,7 @@ export default function Login() {
             />
           </div>
           <button type="submit" className="m-3 btn btn-success">
-            Submit
+            Login
           </button>
           <Link to="/signup" className="m-3 mx-1 btn btn-danger">
             New User

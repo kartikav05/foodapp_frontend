@@ -88,8 +88,9 @@ export default function Navbar() {
                   className="btn bg-white text-success mx-2 "
                   onClick={loadCart}
                 >
-                  <span className="badge badge-warning">{items.length}</span>
+                
                   Cart
+                   <span className="badge bg-info text-dark ms-2">{items.length}</span>
                 </div>
 
                 {cartView ? (

@@ -6,11 +6,11 @@ import Cart from "../screens/Cart";
 
 export default function Navbar() {
   const [cartView, setCartView] = useState(false);
-  localStorage.setItem("temp", "first");
+  //localStorage.setItem("temp", "first");
   let navigate = useNavigate();
+
   const handleLogout = () => {
     localStorage.removeItem("token");
-
     navigate("/login");
   };
 
@@ -88,7 +88,7 @@ export default function Navbar() {
                   className="btn bg-white text-success mx-2 "
                   onClick={loadCart}
                 >
-                  <span class="badge badge-warning">{items.length}</span>
+                  <span className="badge badge-warning">{items.length}</span>
                   Cart
                 </div>
 

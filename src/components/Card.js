@@ -73,7 +73,7 @@ export default function Card(props) {
     setSize(priceRef.current.value);
   }, []);
 
-  let finalPrice = qty * parseInt(options[size]); //This is where Price is changing
+  let finalPrice = qty * parseInt(options[size]); 
 
   return (
     <div>

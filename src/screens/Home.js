@@ -43,7 +43,7 @@ export default function Home() {
           data-bs-ride="carousel"
         >
           <div className="carousel-inner " id="carousel">
-            <div class=" carousel-caption  " style={{ zIndex: "9" }}>
+            <div className=" carousel-caption  " style={{ zIndex: "9" }}>
               <div className=" d-flex justify-content-center">
                 <input
                   className="form-control me-2 w-75 bg-white text-dark"
